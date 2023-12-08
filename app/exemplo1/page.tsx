@@ -6,7 +6,7 @@ type Time = {
 
 async function getTime(): Promise<Time> 
 {
-  const res = await fetch('http://www.worldtimeapi.org/api/timezone/America/Sao_Paulo', {next: {revalidate: 10}})
+  const res = await fetch('http://www.worldtimeapi.org/api/timezone/America/Sao_Paulo', {next: {revalidate: 15}})
   return  res.json()
 }
 export default async function Exemplo1() 
