@@ -21,7 +21,7 @@ export default async function Exemplo1()
 
   return (
    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', flexDirection:'column' }}>
-    <p className="titulo">Exemplo sem validate</p>
+    <p className="titulo">Exemplo sem <span className="tipo">VALIDATE</span></p>
     <div>
       <p className="horaP">{dataHoraFormatada}</p>
     </div>
